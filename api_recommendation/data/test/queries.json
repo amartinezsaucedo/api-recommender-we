@@ -1,0 +1,65 @@
+[
+  {
+    "query": "current weather",
+    "results": [
+      "weatherbit.io/2.0.0/current?postal_code={postal_code}/get",
+      "weatherbit.io/2.0.0/current?lat={lat}&lon={lon}/get",
+      "geodesystems.com/1.0.0/repository/search/type/gadgets_weather/get",
+      "netatmo.net/1.1.5/getpublicdata/get"
+
+    ]
+  },
+  {
+    "query": "upload a video on a platform",
+    "results": [
+      "api.video/1/videos/post",
+      "cpy.re/peertube/3.3.0/videos/upload/post",
+      "vimeo.com/3.4/me/videos/post"
+    ]
+  },
+  {
+    "query": "send mail",
+    "results": [
+      "googleapis.com/gmail/v1/gmail/v1/users/{userId}/messages/send/post"
+    ]
+  },
+  {
+    "query": "weather forecast",
+    "results": [
+      "visualcrossing.com/weather/4.5/VisualCrossingWebServices/rest/services/weatherdata/forecast/get",
+      "weatherbit.io/2.0.0/forecast/hourly?city={city}&country={country}/get"
+    ]
+  },
+  {
+    "query": "get text from audio",
+    "results": [
+      "apptigent.com/2021.1.01/SpeechToText/post"
+    ]
+  },
+  {
+    "query": "translate text",
+    "results": [
+      "apptigent.com/2021.1.01/TranslateString/post",
+      "googleapis.com/translate/v3/v3/{parent}:translateDocument/post",
+      "funtranslations.com/index/2.3/translate/vulcan/get",
+      "funtranslations.com/index/2.3/translate/cockney/get",
+      "funtranslations.com/index/2.3/translate/mandalorian/get",
+      "fungenerators.com/pirate/1.5/pirate/translate/get"
+    ]
+  },
+  {
+    "query": "object recognition",
+    "results": [
+      "azure.com/cognitiveservices-ComputerVision/1.0/ocr/post",
+      "cloudmersive.com/ocr/v1/ocr/photo/toText/post",
+      "microsoft.com/cognitiveservices-Ocr/2.1/read/core/asyncBatchAnalyze/post"
+
+    ]
+  },
+  {
+    "query": "get nearby restaurants",
+    "results": [
+      "just-eat.co.uk/1.0.0/search/restaurants/{tenant}/get"
+    ]
+  }
+]
