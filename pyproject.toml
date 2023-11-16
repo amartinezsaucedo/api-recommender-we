@@ -10,12 +10,14 @@ packages = [{include = "api_recommendation"}]
 python = "^3.9"
 requests = "2.25.1"
 nltk = ">=3.7,<4.0"
-gensim = ">=4.2.0,<4.3.0"
-spacy = ">=3.3.1,<3.4.0"
-ray = ">=2.1.0,<2.2.0"
-numpy = ">=1.23.2,<1.24.0"
+gensim = "^4.3.1"
+spacy = "^3.5.0"
+ray = {extras = ["tune"], version = "^2.7.1"}
+numpy = "^1.25.1"
 scikit-learn = ">=1.1.2,<1.2.0"
 ruamel-yaml = "^0.18.5"
+en-core-web-sm = {url = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.0/en_core_web_sm-3.7.0.tar.gz"}
+
 
 
 [build-system]
